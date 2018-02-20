@@ -1,7 +1,7 @@
 # Battery Issues
 
 
-## Issue
+## Issue 1
 
 ### The Problem
 ### The Solution
