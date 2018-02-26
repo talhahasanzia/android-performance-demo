@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.talhahasanzia.performanceissues.render.OverdrawActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Some text"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:tint="@color/colorAccent"
+            android:background="@drawable/ic_launcher_background"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:background="@android:color/darker_gray"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Some text"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:tint="@color/colorAccent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Some text"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>
